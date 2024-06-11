@@ -1,6 +1,6 @@
 import { Task } from './task';
 
-describe('Task object', () => {
+describe('Task object tests', () => {
     it('should mark a task as completed', () => {
         const task = new Task('Buy milk');
         task.markCompleted();
